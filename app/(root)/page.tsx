@@ -3,7 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex justify-center items-center h-screen'><Button>Click Me Baby!</Button></div>
+    <div className='flex min-h-screen home-wrapper bg-stone-500'>
+      Home
+    </div>
+
   )
 }
 
